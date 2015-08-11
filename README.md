@@ -1,8 +1,8 @@
 #browserify-client
 
 A client that dynamically requires npm modules via an instance of
-[browserify-server](https://github.com/featurist/browserify-server), from the
-browser or node.js.
+[browserify-server](https://github.com/featurist/browserify-server). Works in
+browsers and node.
 
 ```JavaScript
 var client = require('browserify-client').connect('http://localhost:4000');
